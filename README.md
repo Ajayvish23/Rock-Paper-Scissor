@@ -22,15 +22,6 @@ rock-paper-scissors/
 │── script.js
 │── README.md
 
-▶️ How to Play
-Clone this repo:
-git clone https://github.com/<your-username>/<your-repo-name>.git
-Open index.html in any browser.
-Click on Rock, Paper, or Scissors.
-The computer randomly picks a choice.
-The scoreboard updates based on the result.
-Use Reset to restart the game anytime.
-
 🎯 Future Improvements
 Add animations and sounds
 Show a history of past rounds
