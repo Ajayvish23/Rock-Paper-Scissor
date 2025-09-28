@@ -1,0 +1,102 @@
+body{
+  height: 100vh; /* full screen height */
+  margin: 0;
+  background-color: lightseagreen;
+  justify-content: center; /* horizontal center */
+
+}
+
+.heading{
+    font-family: "Arial Black";
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 15rem;
+    width: 70%;
+    border-radius: 20px;
+
+}
+
+.button{
+    text-align: center;
+}
+
+.button img{
+  width: 150px;         /* control size */
+  height: 150px;        /* make it equal to width */
+  margin-top: 20px;
+  object-fit: cover;    /* crops image neatly */
+  border-radius: 50%;   /* makes it a circle */
+  border: 3px solid black; /* optional border */
+  transition: transform 0.3s ease; /* smooth animation */
+  cursor: pointer; /* makes it feel clickable */
+
+}
+
+.button img:hover {
+  transform: scale(1.2); /* zooms to 120% */
+}
+
+.scores{
+    font-family: "Arial Black";
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+
+
+#draw{
+    margin: auto;
+    font-family: "Arial Black";
+    align-content: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#message{
+    padding: 3px;
+    display: inline-block;        /* makes width fit content: changes box size according to content*/
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#reset{
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resetButton{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+    padding: 4px;
+    border-radius: 15px;
+}
